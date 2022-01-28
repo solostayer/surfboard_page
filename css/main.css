@@ -75,7 +75,7 @@ img {
 }
 
 .hero {
-  background: url("/../img/Surfers_background.png") no-repeat;
+  background: url("../img/Surfers_background.png") no-repeat;
   background-position: center;
   background-size: cover;
   height: 100vh;
@@ -256,7 +256,7 @@ img {
 }
 
 .order-section {
-  background: url(/../img/background_surfer.jpg);
+  background: url(../img/background_surfer.jpg);
   background-position: 100%;
   background-size: cover;
 }
@@ -379,6 +379,14 @@ img {
   font-size: 18px;
   font-weight: bold;
   color: black;
+}
+
+.reviews__switcher {
+  text-align: center;
+}
+
+.reviews__switcher-item {
+  display: inline-block;
 }
 
 .interactive-avatar {
@@ -511,6 +519,10 @@ img {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
+}
+
+.radio__title {
+  margin-left: 10px;
 }
 
 .fixed-menu {
