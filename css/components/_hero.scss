@@ -52,4 +52,9 @@
 .hero__title-description {
   font-size: rem(21px);
   margin-bottom: rem(30px);
+  padding-right: 10%;
+
+  @include tablets {
+    padding: 0 20%;
+  }
 }
