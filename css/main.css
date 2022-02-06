@@ -92,6 +92,7 @@ img {
   background: url("../img/Surfers_background.png") no-repeat;
   background-position: center;
   background-size: cover;
+  background-color: rgba(0, 0, 0, 0.7);
   height: 100vh;
   min-height: 36.1111111111rem;
   color: #fff;
@@ -265,8 +266,8 @@ img {
 }
 
 .feature__icon {
-  width: 1.9444444444rem;
-  height: 1.9444444444rem;
+  width: 2.2222222222rem;
+  height: 2.5rem;
   margin-right: 0.7777777778rem;
 }
 
@@ -288,6 +289,7 @@ img {
   line-height: 1;
   text-decoration: none;
   border: none;
+  cursor: pointer;
 }
 .button--theme--yellow {
   background: #FEDB3F;
@@ -337,7 +339,8 @@ img {
 }
 
 .order-section {
-  background: url("../img/background_surfer.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.2)), to(rgba(0, 0, 0, 0.9))), url("../img/background_surfer.jpg");
+  background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.9)), url("../img/background_surfer.jpg");
   background-position: 100%;
   background-size: cover;
 }
@@ -460,6 +463,7 @@ img {
 .reviews__display {
   background: #F8FAF9;
   padding: 2.7777777778rem 2.5rem 1.8888888889rem;
+  margin-bottom: 1.6666666667rem;
 }
 
 .reviews__display-inner {
