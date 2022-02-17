@@ -59,3 +59,14 @@ height: rem(260px);
 .reviews__switcher-item {
   display: inline-block;
 }
+
+.reviews__item {
+  position: absolute;
+  opacity: 0;
+}
+
+.reviews__item.active {
+  position: static;
+  opacity: 1;
+  pointer-events: unset;
+}
